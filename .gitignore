@@ -13,3 +13,4 @@ dist
 *.pyi
 info.txt
 projects.txt
+.ipynb_checkpoints
