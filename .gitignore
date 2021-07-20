@@ -1,0 +1,15 @@
+.idea
+env
+bunny
+logs
+env.bat
+main.py
+data.txt
+__pycache__
+*.log
+build
+dist
+*.pyc
+*.pyi
+info.txt
+projects.txt
