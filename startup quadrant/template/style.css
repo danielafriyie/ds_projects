@@ -1,0 +1,22 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bk {
+    font-family: inherit;
+    font-size: 12px !important;
+}
+
+.bk-root .slick-column-name, .bk-root .slick-sort-indicator {
+    display: inline-block;
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center !important;
+    float: inline-start !important;
+}
+
+.bk-root .bk-slider-title {
+    font-weight: bold;
+}

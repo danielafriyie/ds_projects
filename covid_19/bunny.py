@@ -121,7 +121,7 @@ def date_slider_callback(attr, old, new):
     datacache.data = ColumnDataSource.from_df(cache)
 
 
-date_slider.on_change('value', date_slider_callback)
+date_slider.on_change('value_throttled', date_slider_callback)
 
 confirmed_chart = make_chart('Confirmed Cases', 'date', 'confirmed', interval=10000000.00, color='#D83020')
 death_chart = make_chart('Confirmed Deaths', 'date', 'deaths', interval=300000.00, color='#eaeaea')
